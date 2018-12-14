@@ -1,2 +1,2 @@
-# infarm
-template files for now infarm website
+# infinity seeker
+portfolio stuff
