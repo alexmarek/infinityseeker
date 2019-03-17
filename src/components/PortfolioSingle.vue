@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="page">
 
     <div v-for="(item, index) in portfolio.portfolio" :key="index">
 

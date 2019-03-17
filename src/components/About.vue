@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="page about">
     <h1>{{ msg }}</h1>
     <ul>
       <li  v-html="pages.pages[3].content.rendered" ></li>

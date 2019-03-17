@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div class="page contact">
     <h1>{{ msg }}</h1>
      <p>alex at infinityseeker.com</p>
   </div>
