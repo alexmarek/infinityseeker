@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <app-menu/>
-    <transition name="fade" mode="out-in">
+    <transition name="fade">
       <router-view/>
     </transition>
 
@@ -66,15 +66,12 @@ img {
 h1, h2, h3 {
   margin: 2rem 1rem 1rem;
 }
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 1.5s
+.fade-enter-active, .fade-leave-active{
+  transition: opacity 1s
 }
 
 .fade-enter,
 .fade-leave-to
-/* .fade-leave-active in <2.1.8 */
-
 {
   opacity: 0
 }
