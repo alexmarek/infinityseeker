@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # is2019
 
 > Infinity Seeker site based on vue.js
@@ -20,7 +20,7 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-=======
+
 # infarm-child
 Infarm Child Theme for Infarm main theme
 
@@ -68,4 +68,4 @@ Or, to run with Browser-Sync:
 - then run: `$ gulp watch-bs`
 
 [1] Visit [https://browsersync.io/](https://browsersync.io/) for more information on Browser Sync
->>>>>>> 80fab93509510fd3865ab29c3c546852d4a8c2c0
+
