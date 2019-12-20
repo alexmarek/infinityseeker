@@ -1,20 +1,12 @@
-// The Vue build version to load with the `import` command
-// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-import Vue from 'vue'
-import App from './App'
-import router from './router'
-import store from './store/store.js'
-import {VueMasonryPlugin} from 'vue-masonry';
+// This is the main.js file. Import global CSS and scripts here.
+// The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
-Vue.config.productionTip = false
+import DefaultLayout from "~/layouts/Default.vue";
+import "~/assets/styles.scss";
+import VueMasonry from "vue-masonry-css";
 
-Vue.use(VueMasonryPlugin)
-
-/* eslint-disable no-new */
-new Vue({
-  el: '#app',
-  router,
-  components: { App },
-  template: '<App/>',
-  store
-})
+export default function(Vue, { router, head, isClient }) {
+  // Set default layout as a global component
+  Vue.component("Layout", DefaultLayout);
+  Vue.use(VueMasonry);
+}
