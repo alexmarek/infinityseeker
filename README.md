@@ -1,4 +1,4 @@
-# Default starter for Gridsome
+# Based on Gridsome
 
 ### 1. Install Gridsome CLI tool if you don't have
 
