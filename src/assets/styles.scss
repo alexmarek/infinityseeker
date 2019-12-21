@@ -20,11 +20,6 @@ body {
   background-size: 300%;
   background-image: var(--gradient);
   animation: bg-animation 25s infinite forwards;
-  #app {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
 }
 
 nav ul {

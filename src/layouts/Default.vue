@@ -32,7 +32,8 @@
             target="_blank"
             rel="noreferrer noopener"
             class="no-underline"
-          >&copy; Infinity Seeker 2019</a>
+            >&copy; Infinity Seeker 2019</a
+          >
         </li>
         <li>
           <a
@@ -40,7 +41,8 @@
             target="_blank"
             rel="noreferrer noopener"
             class="no-underline"
-          >LinkedIn</a>
+            >LinkedIn</a
+          >
         </li>
       </ul>
     </footer>
@@ -56,6 +58,11 @@ query {
 </static-query>
 
 <style>
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 .logo {
   max-width: 140px;
 }
