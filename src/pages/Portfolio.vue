@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="portfolio pb-20 mt-16">
-      <masonry :cols="{default: 2, 700: 1}" :gutter="20">
+      <masonry :cols="{ default: 2, 700: 1 }" :gutter="20">
         <div
           v-for="(edge, index) in $static.portfolios.edges"
           :key="index"
@@ -11,6 +11,7 @@
           <img
             :src="edge.node.acf.portfolioImage"
             :alt="edge.node.title"
+            :title="edge.node.title"
             :key="index"
             @click="show(index)"
             class="rounded shadow-lg"
@@ -26,12 +27,15 @@
                   :href="'https://' + edge.node.acf.siteUrl"
                   target="_blank"
                   rel="noopener nofollower"
-                >Visit Site</a>
+                  >Visit Site</a
+                >
               </button>
               <button
                 @click="hide(index)"
                 class="bg-transparent absolute top-5 right-5 hover:text-gray-400 text-gray-800 text-6xl font-hairline"
-              >&times;</button>
+              >
+                &times;
+              </button>
             </div>
           </transition>
         </div>
@@ -78,7 +82,6 @@ export default {
   }
 };
 </script>
-
 
 <style lang="scss" scoped>
 .no-transform {
