@@ -65,6 +65,7 @@
           class="bg-transparent hover:bg-gray-700 text-gray-700 font-semibold hover:text-white py-2 px-4 mb-20 border border-gray-700 hover:border-transparent rounded"
         >Let's do it!</button>
       </div>
+      <input type="hidden" name="contact" value="contact" />
     </form>
   </layout>
 </template>
