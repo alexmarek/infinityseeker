@@ -18,6 +18,7 @@
             id="grid-first-name"
             type="text"
             placeholder="Jane"
+            name="first-name"
           />
         </div>
         <div class="w-full md:w-1/2 px-3">
@@ -30,6 +31,7 @@
             id="grid-last-name"
             type="text"
             placeholder="Doe"
+            name="last-name"
           />
         </div>
         <div class="w-full px-3">
@@ -42,6 +44,7 @@
             id="grid-email"
             type="email"
             placeholder="jane@doe.com"
+            name="email"
           />
         </div>
         <div class="w-full px-3">
@@ -53,8 +56,8 @@
             class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
             rows="10"
             id="grid-message"
-            type="email"
             placeholder="Your enquiry goes here..."
+            name="message"
           />
         </div>
       </div>
