@@ -44,7 +44,7 @@
             target="_blank"
             rel="noreferrer noopener"
             class="no-underline"
-          >&copy; Infinity Seeker 2019</a>
+          >&copy; Infinity Seeker 2020</a>
         </li>
         <li>
           <a
