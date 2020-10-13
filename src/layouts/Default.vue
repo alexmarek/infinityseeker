@@ -1,17 +1,5 @@
 <template>
   <div>
-    <div class="bg-video">
-      <video class="bg-video__content" autoplay muted loop>
-        <source
-          src="https://res.cloudinary.com/infinityseeker/video/upload/c_scale,w_1983/v1578348528/is-bg_ilbc8e.mp4"
-          type="video/mp4"
-        />
-        <source
-          src="https://res.cloudinary.com/infinityseeker/video/upload/c_scale,w_1983/v1578348528/is-bg_ilbc8e.webm"
-          type="video/webm"
-        />Your browser is not supported!
-      </video>
-    </div>
     <div class="layout">
       <header class="header">
         <strong>
