@@ -32,7 +32,7 @@
             target="_blank"
             rel="noreferrer noopener"
             class="no-underline"
-          >&copy; Infinity Seeker 2021</a>
+          >&copy; Infinity Seeker 2022</a>
         </li>
         <li>
           <a
